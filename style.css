@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Noto+Sans:wght@600&display=swap");
+
+#bgColor {
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#colorText {
+  text-align: center;
+}
+
+#colorButton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 0px solid rgb(192, 192, 192);
+  /* background-color: rgb(192,192,192); */
+  /* background-color: Transparent; */
+  font-family: "Noto Sans", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#colorButton:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+#colorButton:active {
+  background-color: rgb(220, 220, 220);
+
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
